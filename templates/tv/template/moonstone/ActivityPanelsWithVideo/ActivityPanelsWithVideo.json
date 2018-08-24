@@ -1,0 +1,11 @@
+{
+    "id": "bootplate-moonstone-ActivityPanelsWithVideo",
+    "type": "template",
+    "description": "Enyo moonstone bootplate ActivityPanels With Video",
+    "files": [
+      {
+        "url": "@PLUGINDIR@/templates/bootplate-templates/moonstone/ActivityPanelsWithVideo/source",
+		"prefixToAdd": "source"
+      }
+    ]
+}

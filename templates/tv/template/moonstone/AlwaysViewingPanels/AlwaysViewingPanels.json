@@ -1,0 +1,11 @@
+{
+    "id": "bootplate-moonstone-AlwaysViewingPanels",
+    "type": "template",
+    "description": "Enyo moonstone booplate AlwaysViewingPanels",
+    "files": [
+      {
+        "url": "@PLUGINDIR@/templates/bootplate-templates/moonstone/AlwaysViewingPanels/source",
+		"prefixToAdd": "source"
+      }
+    ]
+}

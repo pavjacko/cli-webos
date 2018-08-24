@@ -1,0 +1,11 @@
+{
+    "id": "bootplate-moonstone-MediaBrowser",
+    "type": "template",
+    "description": "Enyo moonstone bootplate MediaBrowser",
+    "files": [
+      {
+        "url": "@PLUGINDIR@/templates/bootplate-templates/moonstone/MediaBrowser/source",
+		"prefixToAdd": "source"
+      }
+    ]
+}

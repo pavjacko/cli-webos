@@ -1,0 +1,11 @@
+{
+    "id": "bootplate-moonstone-ActivityPanels",
+    "type": "template",
+    "description": "Enyo moonstone bootplate ActivityPanels",
+    "files": [
+      {
+        "url": "@PLUGINDIR@/templates/bootplate-templates/moonstone/ActivityPanels/source",
+		"prefixToAdd": "source"
+      }
+    ]
+}

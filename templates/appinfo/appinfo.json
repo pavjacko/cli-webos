@@ -1,0 +1,10 @@
+{
+	"id": "com.yourdomain.app",
+	"version": "0.0.1",
+	"vendor": "your company",
+	"type": "web",
+	"main": "index.html",
+	"title": "hello",
+	"icon": "icon.png",
+	"largeIcon": "largeIcon.png"
+}

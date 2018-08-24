@@ -1,0 +1,11 @@
+{
+    "id": "bootplate-moonstone-Wizard",
+    "type": "template",
+    "description": "Enyo moonstone bootplate Wizard",
+    "files": [
+      {
+        "url": "@PLUGINDIR@/templates/bootplate-templates/moonstone/Wizard/source",
+		"prefixToAdd": "source"
+      }
+    ]
+}

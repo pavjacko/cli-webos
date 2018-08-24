@@ -1,0 +1,315 @@
+{
+	"services": [
+		{},
+		{
+			"id": "genZip",
+			"sources": [
+				{
+					"id": "basic_web",
+					"profile": [
+						"tv"
+					],
+					"type": "template",
+					"description": "Basic web template for webOS - none enyo library.",
+					"deps": [
+						"webappinfo",
+						"webicon"
+					],
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/bootplate-web"
+						}
+					]
+				},
+				{
+					"id": "moonstone-2.3",
+					"profile": [
+						"tv"
+					],
+					"type": "null",
+					"xtype": "webapp",
+					"xlibrary": "moonstone",
+					"description": "Enyo 2.3 moonstone template for webOS TV 1.x",
+					"deps": [
+						"moonstonelib"
+					]
+				},
+				{
+					"id": "moonstone-2.5",
+					"profile": [
+						"tv"
+					],
+					"type": "null",
+					"xtype": "webapp",
+					"xlibrary": "moonstone",
+					"description": "Enyo 2.5 moonstone template for webOS TV 2.x",
+					"deps": [
+						"moonstonelib"
+					]
+				},
+				{
+					"id": "moonstone-2.6",
+					"profile": [
+						"tv"
+					],
+					"type": "template",
+					"description": "Enyo 2.6 moonstone template for webOS TV 3.x",
+					"isDefault": true,
+					"deps": [
+						"moonstonelib"
+					],
+					"class": "moonstone"
+				},
+				{
+					"id": "moonstone_wz-2.6",
+					"profile": [
+						"tv"
+					],
+					"type": "template",
+					"description": "Enyo 2.6 moonstone Wizard",
+					"deps": [
+						"moonstonelib"
+					],
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/tv/template/moonstone-2.6/Wizard/src",
+							"at": "src"
+						}
+					],
+					"class": "moonstone"
+				},
+				{
+					"id": "moonstone_apv-2.6",
+					"profile": [
+						"tv"
+					],
+					"type": "template",
+					"description": "Enyo 2.6 moonstone ActivityPanels With Video",
+					"deps": [
+						"moonstonelib"
+					],
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/tv/template/moonstone-2.6/ActivityPanelsWithVideo/src",
+							"at": "src"
+						}
+					],
+					"class": "moonstone"
+				},
+				{
+					"id": "moonstone_avpv-2.6",
+					"profile": [
+						"tv"
+					],
+					"type": "template",
+					"description": "Enyo 2.6 moonstone AlwaysViewingPanels With Video",
+					"deps": [
+						"moonstonelib"
+					],
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/tv/template/moonstone-2.6/AlwaysViewingPanelsWithVideo/src",
+							"at": "src"
+						}
+					],
+					"class": "moonstone"
+				},
+				{
+					"id": "moonstone_avp-2.6",
+					"profile": [
+						"tv"
+					],
+					"type": "template",
+					"description": "Enyo 2.6 moonstone AlwaysViewingPanels",
+					"deps": [
+						"moonstonelib"
+					],
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/tv/template/moonstone-2.6/AlwaysViewingPanels/src",
+							"at": "src"
+						}
+					],
+					"class": "moonstone"
+				},
+				{
+					"id": "moonstone_ap-2.6",
+					"profile": [
+						"tv"
+					],
+					"type": "template",
+					"description": "Enyo 2.6 moonstone ActivityPanels",
+					"deps": [
+						"moonstonelib"
+					],
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/tv/template/moonstone-2.6/ActivityPanels/src",
+							"at": "src"
+						}
+					],
+					"class": "moonstone"
+				},
+				{
+					"id": "moonstone_mb-2.6",
+					"profile": [
+						"tv"
+					],
+					"type": "template",
+					"description": "Enyo 2.6 moonstone MediaBrowser",
+					"deps": [
+						"moonstonelib"
+					],
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/tv/template/moonstone-2.6/MediaBrowser/src",
+							"at": "src"
+						}
+					],
+					"class": "moonstone"
+				},
+				{
+					"id": "js_service",
+					"profile": [
+						"tv",
+						"watch"
+					],
+					"type": "webosService",
+					"description": "webOS node.js service template",
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/webos-service",
+							"at": ""
+						}
+					]
+				},
+				{
+					"id": "webappinfo",
+					"profile": [
+						"tv",
+						"signage"
+					],
+					"type": "appinfo",
+					"description": "appinfo.json for web app",
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/webappinfo"
+						}
+					]
+				},
+				{
+					"id": "webicon",
+					"profile": [
+						"tv"
+					],
+					"type": "icon",
+					"description": "web app icon files [80x80, 130x130]",
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/webicon"
+						}
+					]
+				},
+				{
+					"id": "enyoicon",
+					"profile": [
+						"tv"
+					],
+					"type": "icon",
+					"description": "enyo app icon files [80x80, 130x130]",
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/enyoicon"
+						}
+					]
+				},
+				{
+					"id": "app-moonstone-2.5",
+					"profile": [
+						"tv"
+					],
+					"type": "sources",
+					"description": "bootplate-moonstone default sources",
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/app-moonstone-2.5"
+						}
+					]
+				},
+				{
+					"id": "app-moonstone",
+					"profile": [
+						"tv"
+					],
+					"type": "sources",
+					"description": "bootplate-moonstone default sources",
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/app-moonstone-2.6"
+						}
+					]
+				},
+				{
+					"id": "moonstonelib-2.3",
+					"profile": [
+						"tv"
+					],
+					"type": "library",
+					"version": "2.6",
+					"onDevice": true,
+					"description": "bootplate-moonstone",
+					"deps": [
+						"app-moonstone-2.5",
+						"webappinfo",
+						"enyoicon"
+					],
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/libraries/moonstone-2.3.zip"
+						}
+					]
+				},
+				{
+					"id": "moonstonelib-2.5",
+					"profile": [
+						"tv"
+					],
+					"type": "library",
+					"version": "2.6",
+					"onDevice": true,
+					"description": "bootplate-moonstone",
+					"deps": [
+						"app-moonstone-2.5",
+						"webappinfo",
+						"enyoicon"
+					],
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/libraries/moonstone-2.5.zip"
+						}
+					]
+				},
+				{
+					"id": "moonstonelib",
+					"profile": [
+						"tv"
+					],
+					"type": "library",
+					"version": "2.6",
+					"onDevice": true,
+					"description": "bootplate-moonstone",
+					"deps": [
+						"app-moonstone",
+						"webappinfo",
+						"enyoicon"
+					],
+					"files": [
+						{
+							"url": "@PLUGINDIR@/templates/libraries/moonstone-2.6.zip"
+						}
+					]
+				}
+			]
+		}
+	]
+}
