@@ -47,7 +47,7 @@
   ],
   "dependencies": {
     "archiver": "~0.21.0",
-    "async": "~0.2.9",
+    "async": "1.1.0",
     "base64-stream": "~0.1.2",
     "body-parser": "1.4.x",
     "busboy": "~0.0.5",
@@ -60,8 +60,8 @@
     "enyo-dev": "~0.5.2",
     "express": "~3.3.4",
     "extract-zip": "~1.0.3",
-    "fstream": "0.1.x",
-    "graceful-fs": "1.2.x",
+    "fstream": "1.0.11",
+    "graceful-fs": "4.1.11",
     "inherits": "~1.x",
     "inquirer": "~0.8.0",
     "jsonschema": "~0.4.x",
@@ -80,7 +80,7 @@
     "ssh2": ">=0.4.8",
     "stream-buffers": "0.2.x",
     "strip-bom": "^1.0.0",
-    "tar": "0.1.x",
+    "tar": "2.2.0",
     "temp": "~0.5.1"
   },
   "description": "cli-webos",
@@ -94,12 +94,10 @@
     "npm": ">=1.2.11"
   },
   "files": [
-    "DEMO.md",
     "README.md",
     "SSH-KEY-SETUP.md",
     "ares",
     "bin",
-    "ide-plugin.json",
     "lib",
     "scripts",
     "templates",
@@ -122,5 +120,5 @@
   "scripts": {
     "test": "mocha test/*.spec.js"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
